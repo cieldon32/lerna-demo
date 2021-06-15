@@ -1,0 +1,35 @@
+{
+  "name": "app-1",
+  "version": "0.0.1",
+  "description": "Declarative routing for React",
+  "repository": "ReactTraining/react-router",
+  "license": "MIT",
+  "author": "React Training <hello@reacttraining.com>",
+  "files": [
+  ],
+  "main": "index.js",
+  "module": "esm/react-router.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint modules"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "dependencies": {
+  },
+  "browserify": {
+    "transform": [
+      "loose-envify"
+    ]
+  },
+  "keywords": [
+    "react",
+    "router",
+    "route",
+    "routing",
+    "history",
+    "link"
+  ]
+}
